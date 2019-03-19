@@ -1,7 +1,0 @@
-<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
-    <solid android:color="@color/grey" ></solid>
-    <corners android:radius="@dimen/zero"></corners>
-    <padding android:top="@dimen/btn_padding" android:right="@dimen/btn_padding"
-        android:left="@dimen/btn_padding" android:bottom="@dimen/btn_padding"
-        ></padding>
-</shape>
