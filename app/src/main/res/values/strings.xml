@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FB KIT Test</string>
+    <string name="fb_app_id">449856822422971</string>
+    <string name="account_kit_client_token">daf7b25758a4f26c2105ea6f0f428e30</string>
+    <string name="ak_login_protocol_scheme">ak449856822422971</string>
+    <string name="fb_login_protocol_scheme">fb449856822422971</string>
+    <string name="title_activity_profile">Profile</string>
+</resources>

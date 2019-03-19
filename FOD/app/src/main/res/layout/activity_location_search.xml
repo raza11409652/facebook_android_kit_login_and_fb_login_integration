@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LocationSearch">
+    <LinearLayout
+        android:padding="@dimen/parent_layout_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnLocation"
+            android:textColor="@color/white"
+            android:drawableTint="@color/white"
+            android:drawableEnd="@drawable/loc_pin"
+            android:background="@drawable/btn_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nearme"
+            />
+    </LinearLayout>
+    <TextView
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:padding="@dimen/btn_radius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cities" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/locationList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
